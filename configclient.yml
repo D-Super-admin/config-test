@@ -13,8 +13,5 @@ spring:
         heartbeat:
           enabled: true
         prefer-ip-address: true
-
-# 指定环境配置
-spring:
   profiles: 
-    active: dev
+    active: dev # 指定环境配置
