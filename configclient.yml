@@ -1,0 +1,9 @@
+server.port=9041
+spring.application.name=CONFIG-CLIENT
+
+#consul server
+spring.cloud.consul.host=121.43.190.195
+spring.cloud.consul.port=8500
+
+# 指定环境配置
+spring.profiles.active=dev
